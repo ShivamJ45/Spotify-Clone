@@ -1,13 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Spotify</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="utilities.css" />
+    <script
+      src="https://kit.fontawesome.com/8d7ddd143c.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container flex bg-black">
+      <div class="left flex">
+        <div class="home bg-gray rounded flex">
+          <div class="logo flex icon">
+            <i class="fa-brands fa-spotify"></i>
+            <p>Spotify</p>
+          </div>
+          <ul class="list flex">
+            <li class="flex icon">
+              <i class="fa-solid fa-house"></i>
+              <p>Home</p>
+            </li>
+            <li class="flex icon">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <p>Search</p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="library flex bg-gray rounded">
+          <div class="heading flex">
+            <div class="heading-left flex">
+              <i class="fa-solid fa-book-open"></i>
+              <p>Your Library</p>
+            </div>
+            <div class="heading-right">
+              <i class="fa-solid fa-ellipsis"></i>
+            </div>
+          </div>
+
+          <div class="playlist bg-lightGray rounded flex">
+            <p>Create your first playlist</p>
+            <p>It's easy, we will help you</p>
+          </div>
+          <div class="podcasts bg-lightGray rounded flex">
+            <p>Add your favorite podcasters</p>
+            <p>It's easy, we will help you</p>
+          </div>
+
+          <div class="footer flex">
+            <div><a href="https://www.spotify.com/jp/legal/"><span>Legal</span></a></div>
+            <div><a href="https://www.spotify.com/jp/privacy/"><span>Privacy Center</span></a></div>
+            <div><a href="https://www.spotify.com/jp/legal/privacy-policy/"><span>Privacy Policy</span></a>
+            </div>
+            <div><a href="https://www.spotify.com/jp/legal/cookies-policy/"><span>Cookies</span></a></div>
+            <div><a href="https://www.spotify.com/jp/legal/privacy-policy/#s3"><span>About Ads</span></a></div>
+            <div><a href="https://www.spotify.com/jp/accessibility/"><span>Accessibility</span></a></div>
+        </div>
+        </div>
+      </div>
+
+      <div class="right bg-gray"></div>
+    </div>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
