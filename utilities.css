@@ -1,0 +1,24 @@
+.flex-row{
+    display: flex;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.bg-black{
+    background-color: black;
+}
+
+.bg-darkGrey{
+    background-color: rgb(31, 30, 30);
+}
+
+.bg-lightGrey{
+    background-color: rgb(55, 55, 55);
+}
+
+.border1{
+    border-radius: 7px;
+}

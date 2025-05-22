@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: white;
+    font-family: "Roboto",sans-serif;
+}
+
+/* Left Side Styling */
+
+.left{
+    width: 25%;
+    height: 100vh;
+    margin: 8px 8px;
+}
+
+/* Left Top Styling */
+
+.leftTop{
+    padding: 10px;
+    margin-bottom: 8px;
+}
+
+.logo{
+    padding-left: 10px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.brandName{
+    gap: 10px;
+}
+
+.options{
+    padding-left: 25px;
+    gap: 5px;
+}
+
+.home{
+    gap: 15px;
+    font-weight: 600;
+}
+
+.search{
+    gap: 15px;
+    font-weight: 600;
+}
+
+/* Left Bottom Styling */
+
+.leftBottom{
+    padding: 10px;
+    gap: 10px;
+}
+
+.heading{
+    padding-left: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.library{
+    gap: 10px;
+    font-weight: 600;
+}
+
+.addMore{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.playlist{
+    padding: 10px;
+    gap: 8px;
+    font-weight: 600;
+}
+
+.podcasts{
+    padding: 10px;
+    gap: 8px;
+    font-weight: 600;
+}
+
+.line1{
+    font-size: 16px;
+}
+
+.line2{
+    font-size: 14px;
+}
+
+/* Right Side Styling */
+
+.right{
+    width: 75%;
+    height: 100vh;
+}
